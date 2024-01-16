@@ -65,6 +65,7 @@
             font-family: "Times New Roman", Times, serif;
             font-size:20px;
             border-radius:15px;
+            padding:1.5% 0 1.5% 0;
             align-items:center;
             text-align:center;
             margin:0 37.5% 0 37.5%;
@@ -106,9 +107,11 @@
             </ul>                    
         </div>
         <div class="left">
-            <h2 class="heading2 login"><center>LOGIN</center></h2>
-            <button type="button" class="login-button">VOTER</button><br><br>
-            <button type="button" class="login-button">ADMIN</button>
+            <form method='POST' action='Redirect1.php'>
+                <h2 class="heading2 login"><center>LOGIN</center></h2>
+                <input class="login-button" type='submit' value="VOTER"/><br><br>
+                <input class="login-button" type='submit' value="ADMIN"/>
+            </form>
         </div>
     </div>
     <div class="footer">
