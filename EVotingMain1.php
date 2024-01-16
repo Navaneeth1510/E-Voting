@@ -65,7 +65,6 @@
             font-family: "Times New Roman", Times, serif;
             font-size:20px;
             border-radius:15px;
-            padding:1.5% 0 1.5% 0;
             align-items:center;
             text-align:center;
             margin:0 37.5% 0 37.5%;
@@ -95,7 +94,7 @@
         <div class="right">
             <h2 class="heading1">Voting Instructions</h2>
             <ul class="unlist1">
-                <li>Date – 15/01/2024</li>
+                <li>Date - 15/01/2024</li>
                 <li>Ward Name- Rajarajeshwari Nagar</li>
                 <li>Ward No - 45</li>
                 <li>Every voter can vote exactly once.</li>
@@ -107,11 +106,9 @@
             </ul>                    
         </div>
         <div class="left">
-            <form method='POST' action='Redirect1.php'>
-                <h2 class="heading2 login"><center>LOGIN</center></h2>
-                <input class="login-button" type='submit' value="VOTER"/><br><br>
-                <input class="login-button" type='submit' value="ADMIN"/>
-            </form>
+            <h2 class="heading2 login"><center>LOGIN</center></h2>
+            <a href="VoterLoginPage2.php"><button type="button" class="login-button">VOTER</button></a><br><br>
+            <a href="AdminLoginPage2.php"><button type="button" class="login-button">ADMIN</button></a>
         </div>
     </div>
     <div class="footer">
