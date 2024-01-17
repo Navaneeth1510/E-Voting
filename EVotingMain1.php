@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Online Voting Portal</title>
     <style>
         body{
@@ -61,16 +62,36 @@
             background-color:black;
             color:#FB8C25;
             width:25%;
-            height:13%;
+            height:25%;
             font-family: "Times New Roman", Times, serif;
             font-size:20px;
             border-radius:15px;
             align-items:center;
             text-align:center;
             margin:0 37.5% 0 37.5%;
+            padding: 2% 0 2% 0;
+        }
+        .result-button{
+            background-color:black;
+            color:#FB8C25;
+            width:25%;
+            height:100%;
+            font-family: "Times New Roman", Times, serif;
+            font-size:20px;
+            border-radius:15px;
+            margin:0 0 0 78%;
+            text-align:center;
+        }
+        .left-up{
+            margin:-4% 0 0 0;
+            height:12%;
+        }
+        .left-down{
+            margin:-2.5% 0 0 0;
         }
         .login{
             margin-bottom:5%;
+            /* margin-top:-0.25%; */
         }
         .footer{
             background-color:black;
@@ -106,9 +127,14 @@
             </ul>                    
         </div>
         <div class="left">
-            <h2 class="heading2 login"><center>LOGIN</center></h2>
-            <a href="VoterLoginPage2.php"><button type="button" class="login-button">VOTER</button></a><br><br>
-            <a href="AdminLoginPage2.php"><button type="button" class="login-button">ADMIN</button></a>
+            <div class="left-up">
+                <button type="button" class="result-button">RESULT</button>
+            </div>
+            <div class="left-down">
+                <h2 class="heading2 login"><center>LOGIN</center></h2>
+                <a href="VoterLoginPage2.php"><button type="button" class="login-button">VOTER</button></a><br><br>
+                <a href="AdminLoginPage2.php"><button type="button" class="login-button">ADMIN</button></a>
+            </div>
         </div>
     </div>
     <div class="footer">
