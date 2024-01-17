@@ -133,7 +133,7 @@
             <div class="left-down">
                 <h2 class="heading2 login"><center>LOGIN</center></h2>
                 <a href="VoterLoginPage2.php"><button type="button" class="login-button">VOTER</button></a><br><br>
-                <a href="AdminLoginPage2.php"><button type="button" class="login-button">ADMIN</button></a>
+                <a href="AdminLoginPage3.php"><button type="button" class="login-button">ADMIN</button></a>
             </div>
         </div>
     </div>
