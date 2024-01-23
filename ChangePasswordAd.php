@@ -10,18 +10,18 @@
             background-blend-mode: darken;
             background-attachment: fixed;
         }
-        .header{
+        .header-CP{
             background-color:black;
             border:4px solid black;
             height:0.8rem;
             padding:8px 0 35px 0;
         }
-        #c1{
+        #cp{
             font-size:35px;
             color:#DEFBF9;
             font-family: "Times New Roman", Times, serif; 
         }
-        .body{
+        .body-cp{
             display: flex;
             height:100%;
             margin:1%;
@@ -39,11 +39,11 @@
             font-size:15px;
             font-family: "Times New Roman", Times, serif; 
         }
-        .body{
+        .body-cp{
             /* width:30%; */
             align-items:center;
         }
-        .voter_login{
+        .change-pass{
             width:25%;
             margin:5% 37.5% 4.9% 37.5%;
             border:3px solid black;
@@ -51,7 +51,7 @@
             background-color:black;
             color:#FB8C25;
         }
-        .heading{
+        .heading-cp{
             width:95%;
             margin:-2% 2.5% 0 2.5%;
             text-align:center;
@@ -67,7 +67,7 @@
             /* border:1px solid black; */
             /* text-align:center; */
         }
-        .input1{
+        .input1-cp{
             text-align:left;
             font-size:22px;
         }
@@ -106,10 +106,10 @@
                     <h2 class="h2">CHANGE PASSWORD</h2>
                 </div>
                 <div class="details">
-                    <label for="email" class="input1-cp">Enter old Password</label><br>
+                    <label for="email" class="input1-cp">Enter Old Password</label><br>
                     <input type='text' class="input" name='pass' placeholder="Enter old Password"required/><br><br>
 
-                    <label for="password" class="input1">Enter New Password</label><br>
+                    <label for="password" class="input1-cp">Enter New Password</label><br>
                     <input type='password' class="input" name='re-password' placeholder="Enter New Password"required/><br><br>
                 </div>
                 <div class="foot">
